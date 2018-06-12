@@ -39,7 +39,7 @@ function* searchSynonyms(action) {
     let synonyms = [];
     try{
         const response = yield serverApi1.get(`/synonym.php?text=${action.word}`);
-        let synonyms = getSynonymsFromRaw(response.data);
+        synonyms = getSynonymsFromRaw(response.data);
     }catch(e){}    
     
     yield put({ type: SET_ACTIONPROGRESS, actionProgress: false });    
