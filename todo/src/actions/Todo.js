@@ -1,0 +1,3 @@
+export const SAVE_TODO = 'SAVE_TODO';
+export const SET_STATE_ALL = 'SET_STATE_ALL';
+export const SET_EXISTING_STATE = 'SET_EXISTING_STATE';

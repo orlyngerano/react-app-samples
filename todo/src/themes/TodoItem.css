@@ -1,0 +1,62 @@
+.TodoCell{    
+    display: flex;
+    
+}
+
+.CellContent{
+    flex: 1;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+.CellLeftIcon{
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    display: flex;
+}
+
+.LeftIconBg{
+    background: rgba(76, 112, 169, .05);
+    border-radius: 50%;    
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+.noBg{
+    background: none;
+}
+
+.CellRightIcon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.CellText{
+    flex: 1;
+    border: none;
+    font-size: 1em;
+    color: #666;
+    background: none;
+}
+
+
+.CellDeleteHighlight{
+    box-shadow: 0 2px 5px 0px #aaa;
+    position: relative;
+}
+
+.CellNewHighlight{
+    background-color: #F6F7FA;
+    border-bottom: 2px solid #537092;
+}
+
+.leftIconBtn{
+    cursor: pointer;
+}

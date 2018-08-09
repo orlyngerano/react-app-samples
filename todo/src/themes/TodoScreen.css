@@ -1,0 +1,62 @@
+.TaskTitle{
+    color: #777;
+    font-size: .8em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.Owner{
+    color: #555;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.TaskCount{
+    color: #555;
+    font-size: 1em;
+}
+
+.TitleBar{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.AddTaskButton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.TodosContainer{
+   overflow-y: auto;
+   flex-grow: 1;
+}
+
+.AppContainer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+
+*:focus {
+    outline: none;
+}
+
+.PlusIcon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
