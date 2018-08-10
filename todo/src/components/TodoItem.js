@@ -1,9 +1,4 @@
 import React, {Component} from 'react';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircle as fasCircle, faCheck, faPencilAlt} from '@fortawesome/free-solid-svg-icons';
-import { faCircle as farCircle} from '@fortawesome/free-regular-svg-icons';
 import circle from '../assets/circle-outline.svg';
 import pencil from '../assets/border-color.svg';
 import check from '../assets/check.svg';

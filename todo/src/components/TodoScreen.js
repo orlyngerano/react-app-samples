@@ -3,15 +3,7 @@ import { connect } from 'react-redux';
 import { SAVE_TODO, SET_STATE_ALL, SET_EXISTING_STATE } from '../actions/Todo';
 import { Util } from '../helpers/Util';
 import TodoItem from '../components/TodoItem';
-
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import plus from '../assets/plus.svg';
-
 import '../themes/TodoScreen.css';
 
 class TodoScreen extends Component {
